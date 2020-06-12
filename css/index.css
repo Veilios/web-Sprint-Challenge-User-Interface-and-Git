@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -54,6 +56,27 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    margin-left: 0.1rem;
+}
+
+section.top-content img {
+    padding-bottom: 2rem;
 }
 
 h1, h2, h3, h4, h5 {
