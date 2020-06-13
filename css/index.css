@@ -271,3 +271,11 @@ section.row3 {
 section div img {
     padding-bottom: 0.5rem;
 }
+
+a:hover {
+    transform: scale(1.2);
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
