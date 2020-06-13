@@ -61,22 +61,28 @@ html, body {
 header {
     display:flex;
     justify-content: space-between;
-    padding: 1.2rem;
+    padding-top: 1.2rem;
     align-items: flex-end;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
-header a {
+header div {
+    width: 50rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+header div a {
     text-decoration: none;
     color: black;
-}
-
-header img {
-    margin-left: 0.1rem;
+    font-size: 0.89rem;
 }
 
 section.top-content img {
-    padding-bottom: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 h1, h2, h3, h4, h5 {
