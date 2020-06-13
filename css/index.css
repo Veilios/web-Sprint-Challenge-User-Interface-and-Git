@@ -214,3 +214,54 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+section.about {
+    border-bottom: 1px dashed black;
+}
+
+section.about div  {
+    padding: 1.2rem;
+}
+
+section.row1 {
+    display: flex;
+    padding-top: 1rem;
+}
+
+section.row1 div.strategy, div.how {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        line-height: 2.1rem;
+        border-bottom: 1px dashed black;
+}
+
+section div a {
+    text-decoration: none;
+    color: black;
+    border: 0.14rem solid black;
+    border-radius: 0.6rem;
+    width:8rem;
+    height: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section.row2 {
+    display: flex;
+}
+section.row2 div.places, div.collaboration {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 2.1rem;
+    border-bottom: 1px dashed black;
+}
+
+section.row3 {
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;;
+}
