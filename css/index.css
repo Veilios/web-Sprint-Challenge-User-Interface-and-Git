@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -56,6 +58,33 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+header {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 1.2rem;
+    align-items: flex-end;
+    margin-bottom: 2.5rem;
+}
+
+header div {
+    width: 50rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+header div a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.89rem;
+}
+
+section.top-content img {
+    padding-bottom: 1.5rem;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -69,6 +98,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .top-content {
@@ -112,6 +142,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +213,69 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+section.about {
+    border-bottom: 1px dashed black;
+}
+
+section.about div  {
+    padding: 1.2rem;
+}
+
+section.row1 {
+    display: flex;
+    padding-top: 1rem;
+}
+
+section.row1 div.strategy, div.how {
+        margin: 1rem;
+        padding-bottom: 1.3rem;
+        display: flex;
+        flex-direction: column;
+        line-height: 2.1rem;
+        border-bottom: 1px dashed black;
+}
+
+section div a {
+    text-decoration: none;
+    color: black;
+    border: 0.14rem solid black;
+    border-radius: 0.6rem;
+    width:8rem;
+    height: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section.row2 {
+    display: flex;
+}
+
+section.row2 div.places, div.collaboration {
+    margin: 1rem;
+    padding-bottom: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 2.1rem;
+    border-bottom: 1px dashed black;
+}
+
+section.row3 {
+    padding: 1.5rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1rem;;
+}
+
+section div img {
+    padding-bottom: 0.5rem;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+.box:hover {
+    transform: scale(1.2);
 }
